@@ -35,7 +35,8 @@ For each annotated scene, hyperspectral signatures were extracted from:
 
 The objective was to evaluate whether spectral separability existed between both classes, particularly in wavelengths where plastic is expected to have characteristic reflectance behavior.
 
-Plastic vs. Water Reflectance
+
+![Plastic vs. Water Reflectance](https://github.com/TAMI-UIB/MaLiSatPlasticDetection/blob/main/exemple_fullbands.png)
 
 Although subtle differences were detected, they were not consistent across scenes, mainly due to:
 
