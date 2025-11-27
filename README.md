@@ -22,7 +22,10 @@ To evaluate PRISMA for marine litter detection:
 
 * Below is an example of an annotated scene:
 
-PRISMA RGB Image	Plastic Mask
+<p align="center">
+    <img src="https://github.com/TAMI-UIB/MaLiSatPlasticDetection/blob/main/PRISMA_nolabels.png" width="45%">
+	<img src="https://github.com/TAMI-UIB/MaLiSatPlasticDetection/blob/main/PRISMA_labels.png" width="45%">
+</p>
 
 	
 ## Spectral Analysis
