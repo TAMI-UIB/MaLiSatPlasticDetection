@@ -12,17 +12,15 @@ Despite these efforts, the analysis showed that PRISMA’s spatial resolution is
 
 To evaluate PRISMA for marine litter detection:
 
-Satellite overpasses were scheduled over targeted Mediterranean coastal regions with documented plastic accumulation.
+* Satellite overpasses were scheduled over targeted Mediterranean coastal regions with documented plastic accumulation.
 
-Local teams collected contextual information when possible (weather, sea state, nearby sources of runoff).
+* Local teams collected contextual information when possible (weather, sea state, nearby sources of runoff).
 
-Floating plastic patches were manually annotated on PRISMA Level-2 RGB composites.
+* Floating plastic patches were manually annotated on PRISMA Level-2 RGB composites.
 
-Pixel-level masks were created marking regions with visually identifiable floating debris.
+* Pixel-level masks were created marking regions with visually identifiable floating debris.
 
-Below is an example of an annotated scene:
-
-Example of RGB Image and Plastic Mask
+* Below is an example of an annotated scene:
 
 PRISMA RGB Image	Plastic Mask
 
@@ -31,9 +29,9 @@ PRISMA RGB Image	Plastic Mask
 
 For each annotated scene, hyperspectral signatures were extracted from:
 
-Pixels labeled as floating plastic
+1. Pixels labeled as floating plastic
 
-Pixels labeled as open water
+2. Pixels labeled as open water
 
 The objective was to evaluate whether spectral separability existed between both classes, particularly in wavelengths where plastic is expected to have characteristic reflectance behavior.
 
@@ -41,11 +39,11 @@ Plastic vs. Water Reflectance
 
 Although subtle differences were detected, they were not consistent across scenes, mainly due to:
 
-Sub-pixel mixing with water
+* Sub-pixel mixing with water
 
-Wave glint and illumination variability
+* Wave glint and illumination variability
 
-Very small target size relative to PRISMA’s pixel footprint
+* Very small target size relative to PRISMA’s pixel footprint
 
 As a result, no robust or reproducible spectral pattern could be identified.
 
@@ -53,11 +51,11 @@ As a result, no robust or reproducible spectral pattern could be identified.
 
 PRISMA’s spatial resolution (30 m for hyperspectral bands) imposes a fundamental limitation:
 
-Most floating litter patches observed in situ are significantly smaller than a single pixel.
+* Most floating litter patches observed in situ are significantly smaller than a single pixel.
 
-Even larger accumulations tend to be thin, fragmented, and partially submerged.
+* Even larger accumulations tend to be thin, fragmented, and partially submerged.
 
-Fusion experiments (HS → PAN) were unable to produce usable detail, since the underlying signal was already too mixed at native resolution.
+* Fusion experiments (HS → PAN) were unable to produce usable detail, since the underlying signal was already too mixed at native resolution.
 
 These issues reduce the number of usable scenes to a fraction of the total acquisitions, making large-scale dataset construction infeasible.
 
@@ -65,23 +63,20 @@ These issues reduce the number of usable scenes to a fraction of the total acqui
 
 Based on the experiments performed:
 
-Manual dataset construction using PRISMA is not viable for marine litter detection due to spatial resolution constraints.
+* Manual dataset construction using PRISMA is not viable for marine litter detection due to spatial resolution constraints.
 
-Spectral signatures of floating plastics could not be reliably extracted, even with coordinated acquisitions and manual annotations.
+* Spectral signatures of floating plastics could not be reliably extracted, even with coordinated acquisitions and manual annotations.
 
-Fusion techniques did not yield sufficient improvement to enable detection.
+* Fusion techniques did not yield sufficient improvement to enable detection.
 
 The project therefore transitioned to publicly available Sentinel-2 datasets, which provide:
 
-Higher spatial resolution (10 m)
+* Higher spatial resolution (10 m)
 
-Short revisit times
+* Short revisit times
 
-Open access
+* Open access
 
-Bands already validated in the literature for floating debris detection (e.g., spectral ranges used in FDI and NDVI)
+* Bands already validated in the literature for floating debris detection (e.g., spectral ranges used in FDI and NDVI)
 
-## Citation
-
-If this work is useful for your research project, please cite:
 
