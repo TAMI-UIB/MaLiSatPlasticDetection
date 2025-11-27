@@ -75,7 +75,7 @@ Based on the experiments performed:
 
 The project therefore transitioned to publicly available Sentinel-2 datasets, which provide:
 
-* Higher spatial resolution (10 m)
+* Higher spatial resolution (up to 10 m)
 
 * Short revisit times
 
