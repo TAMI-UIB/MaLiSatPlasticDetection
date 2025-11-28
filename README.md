@@ -1,5 +1,7 @@
 # PRISMA Marine Litter Detection Analysis
 
+**Authors:** I. Pereira-Sánchez, D. Torres, F. Alcover, B. Garau, A. Jaume, C. Alomar, B. Coll, J. Navarro, C. Sbert, S. Deudero, J. Duran.
+
 This repository documents the evaluation of PRISMA hyperspectral imagery for the detection of floating marine litter.
 
 ## Overview
