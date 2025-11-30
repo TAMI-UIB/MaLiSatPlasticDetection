@@ -86,4 +86,6 @@ The project therefore transitioned to publicly available Sentinel-2 datasets, wh
 
 * Bands already validated in the literature for floating debris detection (e.g., spectral ranges used in FDI and NDVI)
 
+## Acknowledgements
 
+This work was funded by MCIN/AEI/10.13039/501100011033/ and by the European Union NextGenerationEU/PRTR via the MaLiSat project TED2021-132644B-I00.
